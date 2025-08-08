@@ -6,7 +6,7 @@ replicaCount: 1
 
 image:
   repository: argoproj/rollouts-demo
-  tag: green
+  tag: blue
   pullPolicy: IfNotPresent
 
 service:
@@ -16,7 +16,7 @@ service:
 
 ingress:
   enabled: true
-  host: blue-green-prod.192.168.64.3.nip.io
+  host: blue-green-dev.192.168.64.3.nip.io
   path: /
 
 resources:
