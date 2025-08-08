@@ -16,7 +16,7 @@ service:
 
 ingress:
   enabled: true
-  host: http://blue-green-dev.192.168.64.3.nip.io/
+  host: blue-green-dev.192.168.64.3.nip.io
   path: /
 
 resources:
